@@ -20,11 +20,9 @@ namespace differentVariablesTest
             float floatVar = 23123.232324f;
             Console.WriteLine($"Write something and hit enter to start testing input");
             var inputVar = Console.ReadLine();
-            Console.WriteLine($"what you wrote is the input: {inputVar}");
-            Console.WriteLine($"testing number:{numberVar}");
-            Console.WriteLine($"testing  double: {doubleVar}");
-            Console.WriteLine($"testing char:{charVar}");
-            Console.WriteLine($"testing  string: {stringVar}");
+
+            // Tester også bruk av \n under her men også writeline etter det (o_O)
+            Console.WriteLine($"what you wrote is the input: {inputVar}\ntesting number:{numberVar}\ntesting  double: {doubleVar}\ntesting char:{charVar}\ntesting  string: {stringVar}");
             Console.WriteLine($"testing bool:{boolVar}");
             Console.WriteLine($"testing long: {longVar}");
             Console.WriteLine($"testing float :{floatVar}");
